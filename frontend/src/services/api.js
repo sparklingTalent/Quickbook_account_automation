@@ -2,12 +2,53 @@ import axios from 'axios'
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1'
 
+// Log API URL in development for debugging
+if (import.meta.env.DEV) {
+  console.log('🔗 API Base URL:', API_BASE_URL)
+}
+
+// Warn if using localhost in production
+if (import.meta.env.PROD && API_BASE_URL.includes('localhost')) {
+  console.error('⚠️ WARNING: Using localhost API URL in production!')
+  console.error('Set VITE_API_URL environment variable in Vercel.')
+}
+
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
   },
 })
+
+// Add request interceptor for debugging
+api.interceptors.request.use(
+  (config) => {
+    if (import.meta.env.DEV) {
+      console.log('📤 API Request:', config.method?.toUpperCase(), config.url)
+    }
+    return config
+  },
+  (error) => {
+    console.error('❌ Request Error:', error)
+    return Promise.reject(error)
+  }
+)
+
+// Add response interceptor for error handling
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.message === 'Network Error' || error.code === 'ERR_NETWORK') {
+      console.error('🌐 Network Error:', {
+        message: error.message,
+        apiUrl: API_BASE_URL,
+        isProduction: import.meta.env.PROD,
+        hasEnvVar: !!import.meta.env.VITE_API_URL,
+      })
+    }
+    return Promise.reject(error)
+  }
+)
 
 export const apiService = {
   // Health check
