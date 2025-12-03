@@ -3,8 +3,8 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: ./backend/Dockerfile
     container_name: quickbooks-backend
     ports:
       - "8000:8000"
@@ -12,8 +12,8 @@ services:
       - USE_MOCK_DATA=true
       - LOG_LEVEL=INFO
     volumes:
-      - ./backend/data:/app/data
-      - ./backend/.env:/app/.env:ro
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
