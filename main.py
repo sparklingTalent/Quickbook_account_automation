@@ -11,15 +11,27 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS middleware
+# CORS middleware - allow Vercel frontend and localhost
+import os
+allowed_origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:5173",
+    "https://quickbook-account-automation.vercel.app",
+]
+
+# Add custom origins from environment variable
+if os.getenv("ALLOWED_ORIGINS"):
+    if os.getenv("ALLOWED_ORIGINS") == "*":
+        allowed_origins = ["*"]  # Allow all origins
+    else:
+        custom_origins = [origin.strip() for origin in os.getenv("ALLOWED_ORIGINS").split(",")]
+        allowed_origins.extend(custom_origins)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:5173",
-        "http://127.0.0.1:3000",
-        "http://127.0.0.1:5173",
-    ],  # React dev server ports
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
