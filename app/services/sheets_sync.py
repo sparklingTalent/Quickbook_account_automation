@@ -1,5 +1,6 @@
 """Service to keep Google Sheets synchronized with latest data."""
 from datetime import datetime
+from typing import Optional
 from app.quickbooks.mock_client import MockQuickBooksClient
 from app.payroll.service import PayrollService
 from app.reports.exporter import ReportExporter
