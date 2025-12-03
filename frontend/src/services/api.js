@@ -95,14 +95,13 @@ export const apiService = {
   },
 
   // Download variance report as Excel file
-  async downloadVarianceReportExcel(year, month, viewMode = 'historical', months = 12) {
+  async downloadVarianceReportExcel(year, month, months = 12) {
     const response = await api.post(
       '/reports/variance',
       {
         year,
         month,
         format: 'excel',
-        view_mode: viewMode,
         months: months,
       },
       {

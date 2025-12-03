@@ -11,7 +11,6 @@ function PDFExportButton({
   selectedYear,
   selectedMonth,
   months,
-  viewMode = 'historical',
 }) {
   const [isGenerating, setIsGenerating] = useState(false)
   const chartRefs = useRef({})
@@ -41,7 +40,7 @@ function PDFExportButton({
   const handleDownloadExcel = async () => {
     setIsGenerating(true)
     try {
-      await apiService.downloadVarianceReportExcel(selectedYear, selectedMonth, viewMode, months)
+      await apiService.downloadVarianceReportExcel(selectedYear, selectedMonth, months)
     } catch (error) {
       console.error('Error downloading Excel:', error)
       alert(`Error downloading Excel file: ${error.message || 'Please try again.'}`)
@@ -61,49 +60,27 @@ function PDFExportButton({
         return document.querySelector(selector)
       }
       
-      // Find charts based on view mode
-      if (viewMode === 'historical') {
-        // Historical view: Summary Cards, Trends, Monthly Comparison, Department, Employee
-        const summaryCards = findChart('.summary-cards')
-        const trendsChart = findChart('.variance-trends-chart')
-        const monthlyChart = findChart('.monthly-comparison')
-        const deptChart = findChart('.department-breakdown')
-        const employeeChart = findChart('.employee-analysis')
-        
-        if (summaryCards) {
-          chartElements.push({ element: summaryCards, title: 'Summary Cards' })
-        }
-        if (trendsChart) {
-          chartElements.push({ element: trendsChart, title: 'Historical Variance Trends' })
-        }
-        if (monthlyChart) {
-          chartElements.push({ element: monthlyChart, title: 'Monthly Budget vs Actual Comparison' })
-        }
-        if (deptChart) {
-          chartElements.push({ element: deptChart, title: 'Department Breakdown' })
-        }
-        if (employeeChart) {
-          chartElements.push({ element: employeeChart, title: 'Employee Analysis' })
-        }
-      } else {
-        // Single month view: Department, Employee, Monthly Summary (NO Summary Cards, NO Trends)
-        const deptChart = findChart('.department-breakdown')
-        const employeeChart = findChart('.employee-analysis')
-        const monthlySummary = findChart('.single-month-summary')
-        
-        if (deptChart) {
-          chartElements.push({ element: deptChart, title: 'Department Breakdown' })
-        }
-        if (employeeChart) {
-          chartElements.push({ element: employeeChart, title: 'Employee Analysis' })
-        }
-        if (monthlySummary) {
-          // Find the parent chart-card to capture the whole section
-          const summaryCard = monthlySummary.closest('.chart-card')
-          if (summaryCard) {
-            chartElements.push({ element: summaryCard, title: 'Monthly Summary' })
-          }
-        }
+      // Find all charts: Summary Cards, Trends, Monthly Comparison, Department, Employee
+      const summaryCards = findChart('.summary-cards')
+      const trendsChart = findChart('.variance-trends-chart')
+      const monthlyChart = findChart('.monthly-comparison')
+      const deptChart = findChart('.department-breakdown')
+      const employeeChart = findChart('.employee-analysis')
+      
+      if (summaryCards) {
+        chartElements.push({ element: summaryCards, title: 'Summary Cards' })
+      }
+      if (trendsChart) {
+        chartElements.push({ element: trendsChart, title: 'Historical Variance Trends' })
+      }
+      if (monthlyChart) {
+        chartElements.push({ element: monthlyChart, title: 'Monthly Budget vs Actual Comparison' })
+      }
+      if (deptChart) {
+        chartElements.push({ element: deptChart, title: 'Department Breakdown' })
+      }
+      if (employeeChart) {
+        chartElements.push({ element: employeeChart, title: 'Employee Analysis' })
       }
 
       console.log(`Found ${chartElements.length} chart elements to capture:`, 

@@ -36,8 +36,7 @@ class ReportExporter:
     def export_to_excel(self, df: pd.DataFrame, filepath: str, 
                        department_data: Optional[pd.DataFrame] = None,
                        trends_data: Optional[pd.DataFrame] = None,
-                       include_charts: bool = True,
-                       view_mode: str = "historical"):
+                       include_charts: bool = True):
         """
         Export DataFrame to Excel file with optional charts.
         
@@ -87,17 +86,17 @@ class ReportExporter:
         
         # Add charts if requested and data available
         if include_charts:
-            # Department Breakdown Chart (always included)
+            # Department Breakdown Chart
             if department_data is not None and not department_data.empty:
                 self._add_department_chart(workbook, department_data)
             
-            # Historical Trends Chart (only for historical view)
-            if view_mode == "historical" and trends_data is not None and not trends_data.empty:
+            # Historical Trends Chart
+            if trends_data is not None and not trends_data.empty:
                 self._add_trends_chart(workbook, trends_data)
-                # Add Monthly Comparison chart for historical view
+                # Add Monthly Comparison chart
                 self._add_monthly_comparison_chart(workbook, trends_data)
             
-            # Employee Variance Chart (always included)
+            # Employee Variance Chart
             self._add_employee_chart(workbook, df)
         
         workbook.save(filepath)
