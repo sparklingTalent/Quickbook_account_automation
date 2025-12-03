@@ -95,6 +95,7 @@ class PayrollService:
             })
         
         # Add department totals
+        # First, calculate actuals from payroll data
         departments = {}
         for row in report_rows:
             dept = row["Department"]
@@ -104,9 +105,13 @@ class PayrollService:
                     "Actual": 0.0,
                     "Variance": 0.0
                 }
-            departments[dept]["Budget"] += row["Budget"]
             departments[dept]["Actual"] += row["Actual"]
-            departments[dept]["Variance"] += row["Variance"]
+        
+        # Then, get ALL budgets for each department (including employees without payroll)
+        for dept in departments.keys():
+            dept_budget = self.budget_manager.get_department_budget(dept, month_str, year)
+            departments[dept]["Budget"] = dept_budget
+            departments[dept]["Variance"] = departments[dept]["Actual"] - dept_budget
         
         # Add department summary rows
         for dept, totals in departments.items():
@@ -171,15 +176,14 @@ class PayrollService:
                 payroll_data = self.get_monthly_payroll(target_year, target_month)
                 month_str = f"{target_month:02d}"
                 
-                # Calculate totals directly from payroll data
-                total_budget = 0.0
-                total_actual = 0.0
+                # Get ALL budgets for this month (not just employees with payroll)
+                all_budgets = self.budget_manager.get_all_budgets(month_str, target_year)
+                total_budget = sum(budget_data.get("amount", 0.0) for budget_data in all_budgets.values())
                 
+                # Calculate actual from payroll data
+                total_actual = 0.0
                 for emp_id, emp_data in payroll_data.items():
-                    actual = emp_data["total_amount"]
-                    budget = self.budget_manager.get_budget(emp_id, month_str, target_year)
-                    total_budget += budget
-                    total_actual += actual
+                    total_actual += emp_data["total_amount"]
                 
                 total_variance = total_actual - total_budget
                 

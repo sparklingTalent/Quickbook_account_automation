@@ -7,7 +7,8 @@ function SummaryCards({ trends, employees }) {
   }
 
   // Calculate summary statistics
-  const latest = trends[0] || {}
+  // Get the latest month (last item in trends array, as trends are sorted oldest first)
+  const latest = trends[trends.length - 1] || {}
   const totalBudget = latest['Total Budget'] || 0
   const totalActual = latest['Total Actual'] || 0
   const totalVariance = latest['Total Variance'] || 0
