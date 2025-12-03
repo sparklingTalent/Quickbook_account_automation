@@ -64,36 +64,6 @@
   align-items: flex-end;
 }
 
-.view-mode-toggle {
-  display: flex;
-  gap: 10px;
-  margin-right: auto;
-}
-
-.view-mode-btn {
-  padding: 10px 20px;
-  border: 2px solid #667eea;
-  background: white;
-  color: #667eea;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.view-mode-btn:hover {
-  background: #f0f0ff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
-}
-
-.view-mode-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-color: #667eea;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
-}
 
 .control-group {
   display: flex;
@@ -178,27 +148,6 @@
     width: 100%;
   }
 
-  .view-mode-toggle {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .view-mode-btn {
-    flex: 1;
-  }
-}
-
-.single-month-summary {
-  padding: 20px;
-  background: white;
-  border-radius: 8px;
-}
-
-.summary-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
 }
 
 .summary-item {

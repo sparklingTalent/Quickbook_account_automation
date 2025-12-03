@@ -45,7 +45,7 @@ export async function generatePDFReport({
   })
   pdf.text(`Report Period: ${reportDate}`, pageWidth / 2, yPosition, { align: 'center' })
   
-  // Only show historical period if there are multiple months of data
+  // Show historical period if there are multiple months of data
   if (trends && trends.length > 1 && months > 1) {
     pdf.text(
       `Historical Period: Last ${months} Months`,
@@ -55,7 +55,6 @@ export async function generatePDFReport({
     )
     yPosition += 15
   } else {
-    // Single month view - no historical period
     yPosition += 10
   }
 
@@ -350,7 +349,7 @@ export async function generatePDFWithCharts({
   })
   pdf.text(`Report Period: ${reportDate}`, pageWidth / 2, yPosition, { align: 'center' })
   
-  // Only show historical period if there are multiple months of data
+  // Show historical period if there are multiple months of data
   if (trends && trends.length > 1 && months > 1) {
     pdf.text(
       `Historical Period: Last ${months} Months`,
@@ -360,7 +359,6 @@ export async function generatePDFWithCharts({
     )
     yPosition += 12
   } else {
-    // Single month view - no historical period
     yPosition += 8
   }
 

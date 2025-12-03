@@ -45,10 +45,7 @@ class VarianceReportRequest(BaseModel):
     year: int
     month: int
     format: str = "json"
-    view_mode: Optional[str] = "historical"  # 'historical' or 'single'
     months: Optional[int] = 12  # Number of months for historical trends
-    view_mode: Optional[str] = "historical"  # 'historical' or 'single'
-    months: Optional[int] = 12  # Number of months for historical trends  # json, excel, csv, sheets
 
 
 @router.get("/health")
@@ -101,22 +98,19 @@ async def generate_variance_report(
                 dept_breakdown = dept_df_formatted[dept_df_formatted["Employee ID"] == ""].copy()
                 dept_breakdown = dept_breakdown[dept_breakdown["Employee Name"].str.startswith("DEPARTMENT TOTAL")]
                 
-                # Only get historical trends if it's historical view
-                trends_df = None
-                if request.view_mode == "historical":
-                    trends_df = payroll_service.get_historical_variance_trends(
-                        request.months or 12, 
-                        request.year, 
-                        request.month
-                    )
+                # Get historical trends
+                trends_df = payroll_service.get_historical_variance_trends(
+                    request.months or 12, 
+                    request.year, 
+                    request.month
+                )
                 
                 filepath = exporter.export_to_excel(
                     df_formatted, 
                     tmp.name,
                     department_data=dept_breakdown,
                     trends_data=trends_df,
-                    include_charts=True,
-                    view_mode=request.view_mode
+                    include_charts=True
                 )
                 return FileResponse(
                     filepath,

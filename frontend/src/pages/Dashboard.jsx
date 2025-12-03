@@ -20,11 +20,10 @@ function Dashboard() {
   const [months, setMonths] = useState(12)
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear())
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth() + 1)
-  const [viewMode, setViewMode] = useState('historical') // 'historical' or 'single'
 
   useEffect(() => {
     loadData()
-  }, [months, selectedYear, selectedMonth, viewMode])
+  }, [months, selectedYear, selectedMonth])
 
   // Optimized: Use batch endpoint for faster loading
   const loadData = useCallback(async () => {
@@ -33,9 +32,7 @@ function Dashboard() {
       setError(null)
 
       // Use batch endpoint to get all data in one request
-      // For single month view, use months=1 to get just that month's data
-      const effectiveMonths = viewMode === 'single' ? 1 : months
-      const batchData = await apiService.getDashboardData(effectiveMonths, selectedYear, selectedMonth)
+      const batchData = await apiService.getDashboardData(months, selectedYear, selectedMonth)
 
       setTrends(batchData.trends || [])
       setDepartmentData(batchData.department || [])
@@ -45,7 +42,6 @@ function Dashboard() {
       console.error('Error loading data:', err)
       // Fallback to individual requests if batch fails
       try {
-        const effectiveMonths = viewMode === 'single' ? 1 : months
         const [trendsData, deptData, reportData, employeesData] = await Promise.all([
           apiService.getVarianceTrends(effectiveMonths, selectedYear, selectedMonth),
           apiService.getVarianceByDepartment(selectedYear, selectedMonth),
@@ -63,7 +59,7 @@ function Dashboard() {
     } finally {
       setLoading(false)
     }
-  }, [months, selectedYear, selectedMonth, viewMode])
+  }, [months, selectedYear, selectedMonth])
 
   const handleRefresh = useCallback(() => {
     loadData()
@@ -106,7 +102,6 @@ function Dashboard() {
             selectedYear={selectedYear}
             selectedMonth={selectedMonth}
             months={months}
-            viewMode={viewMode}
           />
           <button className="refresh-btn" onClick={handleRefresh}>
             🔄 Refresh
@@ -115,37 +110,20 @@ function Dashboard() {
       </header>
 
       <div className="dashboard-controls">
-        <div className="view-mode-toggle">
-          <button
-            className={`view-mode-btn ${viewMode === 'historical' ? 'active' : ''}`}
-            onClick={() => setViewMode('historical')}
+        <div className="control-group">
+          <label htmlFor="months">Historical Period:</label>
+          <select
+            id="months"
+            value={months}
+            onChange={(e) => setMonths(Number(e.target.value))}
           >
-            📈 Historical View
-          </button>
-          <button
-            className={`view-mode-btn ${viewMode === 'single' ? 'active' : ''}`}
-            onClick={() => setViewMode('single')}
-          >
-            📅 Single Month View
-          </button>
+            <option value={1}>Last 1 Month</option>
+            <option value={6}>Last 6 Months</option>
+            <option value={12}>Last 12 Months</option>
+            <option value={18}>Last 18 Months</option>
+            <option value={24}>Last 24 Months</option>
+          </select>
         </div>
-
-        {viewMode === 'historical' && (
-          <div className="control-group">
-            <label htmlFor="months">Historical Period:</label>
-            <select
-              id="months"
-              value={months}
-              onChange={(e) => setMonths(Number(e.target.value))}
-            >
-              <option value={1}>Last 1 Month</option>
-              <option value={6}>Last 6 Months</option>
-              <option value={12}>Last 12 Months</option>
-              <option value={18}>Last 18 Months</option>
-              <option value={24}>Last 24 Months</option>
-            </select>
-          </div>
-        )}
 
         <div className="control-group">
           <label htmlFor="year">Year:</label>
@@ -184,71 +162,25 @@ function Dashboard() {
         <SummaryCards trends={memoizedTrends} employees={employees} />
 
         <div className="charts-section">
-          {viewMode === 'historical' ? (
-            <>
-              <div className="chart-card full-width">
-                <h2>Historical Variance Trends ({months} Months)</h2>
-                <VarianceTrendsChart data={memoizedTrends} />
-              </div>
+          <div className="chart-card full-width">
+            <h2>Historical Variance Trends ({months} Months)</h2>
+            <VarianceTrendsChart data={memoizedTrends} />
+          </div>
 
-              <div className="chart-card full-width">
-                <h2>Monthly Budget vs Actual Comparison</h2>
-                <MonthlyComparison trends={memoizedTrends} />
-              </div>
+          <div className="chart-card full-width">
+            <h2>Monthly Budget vs Actual Comparison</h2>
+            <MonthlyComparison trends={memoizedTrends} />
+          </div>
 
-              <div className="chart-card">
-                <h2>Department Breakdown ({selectedYear}-{String(selectedMonth).padStart(2, '0')})</h2>
-                <DepartmentBreakdown data={memoizedDepartmentData} />
-              </div>
+          <div className="chart-card">
+            <h2>Department Breakdown ({selectedYear}-{String(selectedMonth).padStart(2, '0')})</h2>
+            <DepartmentBreakdown data={memoizedDepartmentData} />
+          </div>
 
-              <div className="chart-card full-width">
-                <h2>Employee Analysis ({selectedYear}-{String(selectedMonth).padStart(2, '0')})</h2>
-                <EmployeeAnalysis data={memoizedEmployeeData} />
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="chart-card">
-                <h2>Department Breakdown - {new Date(selectedYear, selectedMonth - 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</h2>
-                <DepartmentBreakdown data={memoizedDepartmentData} />
-              </div>
-
-              <div className="chart-card full-width">
-                <h2>Employee Analysis - {new Date(selectedYear, selectedMonth - 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</h2>
-                <EmployeeAnalysis data={memoizedEmployeeData} />
-              </div>
-
-              <div className="chart-card full-width">
-                <h2>Monthly Summary - {new Date(selectedYear, selectedMonth - 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</h2>
-                <div className="single-month-summary">
-                  <div className="summary-grid">
-                    <div className="summary-item">
-                      <span className="summary-label">Total Budget:</span>
-                      <span className="summary-value">
-                        ${(memoizedDepartmentData.reduce((sum, dept) => sum + (dept.Budget || 0), 0)).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                      </span>
-                    </div>
-                    <div className="summary-item">
-                      <span className="summary-label">Total Actual:</span>
-                      <span className="summary-value">
-                        ${(memoizedDepartmentData.reduce((sum, dept) => sum + (dept.Actual || 0), 0)).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                      </span>
-                    </div>
-                    <div className="summary-item">
-                      <span className="summary-label">Total Variance:</span>
-                      <span className={`summary-value ${memoizedDepartmentData.reduce((sum, dept) => sum + (dept.Variance || 0), 0) > 0 ? 'variance-positive' : 'variance-negative'}`}>
-                        ${(memoizedDepartmentData.reduce((sum, dept) => sum + (dept.Variance || 0), 0)).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                      </span>
-                    </div>
-                    <div className="summary-item">
-                      <span className="summary-label">Total Employees:</span>
-                      <span className="summary-value">{employees.length || 0}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </>
-          )}
+          <div className="chart-card full-width">
+            <h2>Employee Analysis ({selectedYear}-{String(selectedMonth).padStart(2, '0')})</h2>
+            <EmployeeAnalysis data={memoizedEmployeeData} />
+          </div>
         </div>
       </div>
 
