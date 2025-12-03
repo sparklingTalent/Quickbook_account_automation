@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════
+QUICK SETUP: Share Google Sheet with Service Account
+═══════════════════════════════════════════════════════════════
+
+Your service account email:
+  shippingpricecalculator@pricing-calculator-478920.iam.gserviceaccount.com
+
+Your spreadsheet:
+  https://docs.google.com/spreadsheets/d/1mPLCZX8NuhvtP6O4wdp8OgfTP6GJFVr16oT8ik12dBk
+
+STEPS:
+1. Open the spreadsheet link above
+2. Click "Share" button (top right)
+3. Paste this email: shippingpricecalculator@pricing-calculator-478920.iam.gserviceaccount.com
+4. Set permission to "Editor"
+5. Uncheck "Notify people"
+6. Click "Share"
+
+Then test with:
+  ./venv/bin/python3 test_google_sheets.py
+  OR
+  ./test_google_sheets_quick.sh
+
+Note: Always use venv/bin/python3, not system python3!
+
+═══════════════════════════════════════════════════════════════

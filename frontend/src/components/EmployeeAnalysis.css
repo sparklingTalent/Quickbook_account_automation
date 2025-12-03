@@ -1,0 +1,103 @@
+.employee-analysis {
+  width: 100%;
+}
+
+.employee-table {
+  margin-top: 30px;
+}
+
+.employee-table h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.employee-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.employee-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.employee-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.employee-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.employee-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.employee-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.emp-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.variance-over {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.variance-under {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.variance-on {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status-over {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.status-under {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.status-on {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .employee-table {
+    font-size: 0.8rem;
+    overflow-x: auto;
+  }
+
+  .employee-table th,
+  .employee-table td {
+    padding: 8px;
+  }
+}
+
