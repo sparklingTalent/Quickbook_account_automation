@@ -1,0 +1,2 @@
+"""QuickBooks Accounting Automation Application."""
+

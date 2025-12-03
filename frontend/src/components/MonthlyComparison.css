@@ -1,0 +1,10 @@
+.monthly-comparison {
+  width: 100%;
+}
+
+.chart-empty {
+  padding: 40px;
+  text-align: center;
+  color: #999;
+}
+
