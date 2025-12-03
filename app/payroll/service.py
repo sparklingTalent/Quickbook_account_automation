@@ -195,6 +195,9 @@ class PayrollService:
                     "Variance %": round((total_variance / total_budget * 100) if total_budget > 0 else 0, 2)
                 })
             except Exception as e:
+                # Log error but don't fail silently - this helps debug budget issues
+                import logging
+                logging.error(f"Error processing month {target_year}-{target_month:02d}: {e}")
                 # If data generation fails for a month, skip it
                 continue
         

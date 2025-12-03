@@ -16,6 +16,17 @@ class BudgetManager:
     
     def _load_budgets(self):
         """Load budgets from JSON file (cached in memory)."""
+        # Resolve path relative to current working directory or script location
+        if not self.budget_file.is_absolute():
+            # Try relative to current directory first
+            if not self.budget_file.exists():
+                # Try relative to project root (where main.py is)
+                import os
+                project_root = Path(__file__).parent.parent.parent
+                alt_path = project_root / self.budget_file
+                if alt_path.exists():
+                    self.budget_file = alt_path
+        
         if self.budget_file.exists():
             # Only reload if file was modified
             import os
@@ -26,7 +37,7 @@ class BudgetManager:
                 self._last_mtime = mtime
         else:
             self.budgets = {}
-            self._save_budgets()
+            # Don't create empty file if it doesn't exist - might be deployment issue
     
     def _save_budgets(self):
         """Save budgets to JSON file."""
@@ -75,8 +86,15 @@ class BudgetManager:
     
     def get_all_budgets(self, month: str, year: int) -> Dict:
         """Get all budgets for a specific month."""
+        # Force reload budgets to ensure we have latest data
+        self._load_budgets()
         return {
             key: data for key, data in self.budgets.items()
             if data.get("year") == year and data.get("month") == month
         }
+    
+    def reload_budgets(self):
+        """Force reload budgets from file."""
+        self._last_mtime = 0  # Reset mtime to force reload
+        self._load_budgets()
 
