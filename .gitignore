@@ -29,7 +29,7 @@ Thumbs.db
 logs/
 
 # Data
-data/budgets.json
+# data/budgets.json  # Commented out - needed for deployment
 *.xlsx
 *.csv
 

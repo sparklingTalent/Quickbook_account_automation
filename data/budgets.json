@@ -1,0 +1,2882 @@
+{
+  "emp_001_2022_01": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_01": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_01": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_01": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_01": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_01": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_02": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_02": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_02": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_02": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_02": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_02": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_03": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_03": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_03": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_03": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_03": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_03": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_04": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_04": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_04": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_04": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_04": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_04": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_05": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_05": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_05": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_05": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_05": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_05": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_06": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_06": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_06": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_06": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_06": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_06": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_07": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_07": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_07": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_07": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_07": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_07": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_08": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_08": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_08": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_08": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_08": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_08": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_09": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_09": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_09": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_09": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_09": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_09": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_10": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_10": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_10": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_10": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_10": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_10": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_11": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_11": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_11": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_11": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_11": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_11": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2022_12": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2022,
+    "amount": 12000.0
+  },
+  "emp_002_2022_12": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2022,
+    "amount": 10000.0
+  },
+  "emp_003_2022_12": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2022,
+    "amount": 13000.0
+  },
+  "emp_004_2022_12": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2022,
+    "amount": 11000.0
+  },
+  "emp_005_2022_12": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2022,
+    "amount": 9500.0
+  },
+  "emp_006_2022_12": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2022,
+    "amount": 10500.0
+  },
+  "emp_001_2023_01": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_01": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_01": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_01": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_01": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_01": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_02": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_02": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_02": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_02": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_02": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_02": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_03": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_03": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_03": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_03": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_03": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_03": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_04": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_04": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_04": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_04": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_04": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_04": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_05": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_05": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_05": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_05": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_05": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_05": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_06": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_06": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_06": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_06": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_06": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_06": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_07": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_07": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_07": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_07": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_07": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_07": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_08": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_08": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_08": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_08": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_08": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_08": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_09": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_09": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_09": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_09": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_09": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_09": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_10": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_10": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_10": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_10": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_10": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_10": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_11": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_11": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_11": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_11": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_11": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_11": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2023_12": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2023,
+    "amount": 12000.0
+  },
+  "emp_002_2023_12": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2023,
+    "amount": 10000.0
+  },
+  "emp_003_2023_12": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2023,
+    "amount": 13000.0
+  },
+  "emp_004_2023_12": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2023,
+    "amount": 11000.0
+  },
+  "emp_005_2023_12": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2023,
+    "amount": 9500.0
+  },
+  "emp_006_2023_12": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2023,
+    "amount": 10500.0
+  },
+  "emp_001_2024_01": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_01": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_01": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_01": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_01": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_01": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_02": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_02": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_02": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_02": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_02": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_02": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_03": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_03": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_03": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_03": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_03": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_03": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_04": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_04": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_04": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_04": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_04": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_04": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_05": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_05": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_05": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_05": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_05": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_05": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_06": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_06": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_06": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_06": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_06": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_06": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_07": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_07": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_07": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_07": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_07": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_07": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_08": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_08": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_08": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_08": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_08": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_08": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_09": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_09": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_09": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_09": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_09": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_09": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_10": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_10": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_10": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_10": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_10": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_10": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_11": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_11": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_11": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_11": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_11": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_11": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2024_12": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2024,
+    "amount": 12000.0
+  },
+  "emp_002_2024_12": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2024,
+    "amount": 10000.0
+  },
+  "emp_003_2024_12": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2024,
+    "amount": 13000.0
+  },
+  "emp_004_2024_12": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2024,
+    "amount": 11000.0
+  },
+  "emp_005_2024_12": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2024,
+    "amount": 9500.0
+  },
+  "emp_006_2024_12": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2024,
+    "amount": 10500.0
+  },
+  "emp_001_2025_01": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_01": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_01": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_01": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_01": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_01": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_02": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_02": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_02": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_02": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_02": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_02": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_03": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_03": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_03": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_03": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_03": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_03": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_04": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_04": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_04": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_04": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_04": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_04": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_05": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_05": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_05": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_05": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_05": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_05": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_06": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_06": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_06": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_06": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_06": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_06": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_07": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_07": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_07": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_07": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_07": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_07": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_08": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_08": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_08": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_08": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_08": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_08": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_09": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_09": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_09": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_09": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_09": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_09": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_10": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_10": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_10": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_10": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_10": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_10": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_11": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_11": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_11": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_11": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_11": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_11": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2025_12": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2025,
+    "amount": 12000.0
+  },
+  "emp_002_2025_12": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2025,
+    "amount": 10000.0
+  },
+  "emp_003_2025_12": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2025,
+    "amount": 13000.0
+  },
+  "emp_004_2025_12": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2025,
+    "amount": 11000.0
+  },
+  "emp_005_2025_12": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2025,
+    "amount": 9500.0
+  },
+  "emp_006_2025_12": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2025,
+    "amount": 10500.0
+  },
+  "emp_001_2026_01": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_01": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_01": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_01": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_01": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "01",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_01": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "01",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_02": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_02": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_02": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_02": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_02": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "02",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_02": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "02",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_03": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_03": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_03": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_03": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_03": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "03",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_03": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "03",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_04": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_04": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_04": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_04": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_04": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "04",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_04": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "04",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_05": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_05": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_05": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_05": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_05": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "05",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_05": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "05",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_06": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_06": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_06": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_06": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_06": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "06",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_06": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "06",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_07": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_07": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_07": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_07": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_07": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "07",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_07": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "07",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_08": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_08": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_08": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_08": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_08": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "08",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_08": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "08",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_09": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_09": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_09": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_09": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_09": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "09",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_09": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "09",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_10": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_10": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_10": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_10": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_10": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "10",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_10": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "10",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_11": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_11": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_11": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_11": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_11": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "11",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_11": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "11",
+    "year": 2026,
+    "amount": 10500.0
+  },
+  "emp_001_2026_12": {
+    "employee_id": "emp_001",
+    "employee_name": "John Smith",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2026,
+    "amount": 12000.0
+  },
+  "emp_002_2026_12": {
+    "employee_id": "emp_002",
+    "employee_name": "Sarah Johnson",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2026,
+    "amount": 10000.0
+  },
+  "emp_003_2026_12": {
+    "employee_id": "emp_003",
+    "employee_name": "Michael Chen",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2026,
+    "amount": 13000.0
+  },
+  "emp_004_2026_12": {
+    "employee_id": "emp_004",
+    "employee_name": "Emily Rodriguez",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2026,
+    "amount": 11000.0
+  },
+  "emp_005_2026_12": {
+    "employee_id": "emp_005",
+    "employee_name": "David Kim",
+    "department": "Engineering",
+    "month": "12",
+    "year": 2026,
+    "amount": 9500.0
+  },
+  "emp_006_2026_12": {
+    "employee_id": "emp_006",
+    "employee_name": "Lisa Anderson",
+    "department": "Architecture",
+    "month": "12",
+    "year": 2026,
+    "amount": 10500.0
+  }
+}
