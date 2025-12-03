@@ -15,6 +15,7 @@ from app.reports.exporter import ReportExporter
 from app.reports.variance import format_variance_report
 from app.services.sheets_sync import SheetsSyncService
 from app.api.auto_sync import auto_sync_latest_report, auto_sync_on_data_access
+from app.services.cache import get_cache
 from config import settings
 
 
@@ -52,6 +53,17 @@ class VarianceReportRequest(BaseModel):
 async def health_check():
     """Health check endpoint."""
     return {"status": "healthy", "service": "QuickBooks Accounting Automation"}
+
+
+@router.post("/cache/clear")
+async def clear_cache():
+    """Clear all cached data. Useful after data updates."""
+    try:
+        cache = get_cache()
+        cache.clear()
+        return {"status": "success", "message": "Cache cleared successfully"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.get("/employees")
