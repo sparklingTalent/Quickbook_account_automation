@@ -40,21 +40,36 @@ function Dashboard() {
       setEmployees(batchData.employees || [])
       } catch (err) {
       console.error('Error loading data:', err)
-      // Fallback to individual requests if batch fails
-      try {
-        const [trendsData, deptData, reportData, employeesData] = await Promise.all([
-          apiService.getVarianceTrends(months, selectedYear, selectedMonth),
-          apiService.getVarianceByDepartment(selectedYear, selectedMonth),
-          apiService.generateVarianceReport(selectedYear, selectedMonth, 'json'),
-          apiService.getEmployees(),
-        ])
+      
+      // Check if it's a network/CORS error
+      const isNetworkError = err.message === 'Network Error' || 
+                            err.code === 'ERR_NETWORK' ||
+                            err.message?.includes('CORS') ||
+                            !err.response
+      
+      if (isNetworkError) {
+        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1'
+        setError(`Cannot connect to backend API at ${apiUrl}. Check CORS settings and ensure the backend is accessible.`)
+      } else {
+        // Fallback to individual requests if batch fails
+        try {
+          const [trendsData, deptData, reportData, employeesData] = await Promise.all([
+            apiService.getVarianceTrends(months, selectedYear, selectedMonth),
+            apiService.getVarianceByDepartment(selectedYear, selectedMonth),
+            apiService.generateVarianceReport(selectedYear, selectedMonth, 'json'),
+            apiService.getEmployees(),
+          ])
 
-        setTrends(trendsData)
-        setDepartmentData(deptData)
-        setEmployeeData(reportData)
-        setEmployees(employeesData)
-      } catch (fallbackErr) {
-        setError(fallbackErr.message || 'Failed to load data. Make sure the API server is running.')
+          setTrends(trendsData)
+          setDepartmentData(deptData)
+          setEmployeeData(reportData)
+          setEmployees(employeesData)
+        } catch (fallbackErr) {
+          const errorMsg = fallbackErr.response?.data?.detail || 
+                          fallbackErr.message || 
+                          'Failed to load data. Make sure the API server is running.'
+          setError(errorMsg)
+        }
       }
     } finally {
       setLoading(false)

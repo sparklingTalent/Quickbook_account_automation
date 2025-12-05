@@ -17,10 +17,17 @@ function ErrorMessage({ message, onRetry }) {
         <br />
         API URL: <code>{apiUrl}</code>
         <br />
+        Frontend Origin: <code>{window.location.origin}</code>
+        <br />
         Environment: {isProduction ? 'Production' : 'Development'}
         {isProduction && !import.meta.env.VITE_API_URL && (
           <div style={{ marginTop: '10px', color: '#d32f2f', fontWeight: 'bold' }}>
             ⚠️ VITE_API_URL is not set! Set it in Vercel environment variables.
+          </div>
+        )}
+        {isProduction && import.meta.env.VITE_API_URL && (
+          <div style={{ marginTop: '10px', color: '#1976d2', fontWeight: 'bold' }}>
+            ℹ️ Add <code>{window.location.origin}</code> to ALLOWED_ORIGINS on Railway backend, or set ALLOWED_ORIGINS=*
           </div>
         )}
       </div>

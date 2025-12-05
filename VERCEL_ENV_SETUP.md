@@ -71,9 +71,13 @@ After setting the environment variable:
 3. **Clear browser cache:**
    - Hard refresh: `Ctrl+Shift+R` (Windows) or `Cmd+Shift+R` (Mac)
 
-4. **Check backend CORS:**
-   - Make sure `ALLOWED_ORIGINS=*` is set on your backend
-   - Or add your Vercel domain to allowed origins
+4. **Check backend CORS (Railway):**
+   - Go to Railway Dashboard → Your Service → Variables
+   - Add environment variable:
+     - **Key:** `ALLOWED_ORIGINS`
+     - **Value:** `*` (to allow all origins) OR your specific Vercel domain like `https://your-app.vercel.app`
+   - **Redeploy** your Railway service after adding the variable
+   - The error message will show your frontend origin - add that to `ALLOWED_ORIGINS` if using specific domains
 
 ### Backend URL format
 

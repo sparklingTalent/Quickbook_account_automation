@@ -44,6 +44,24 @@ api.interceptors.response.use(
         apiUrl: API_BASE_URL,
         isProduction: import.meta.env.PROD,
         hasEnvVar: !!import.meta.env.VITE_API_URL,
+        error: error,
+      })
+      // Enhance error message for better debugging
+      error.message = `Network Error: Cannot connect to ${API_BASE_URL}. This could be a CORS issue or the backend is not accessible.`
+    } else if (error.response?.status === 0 || error.code === 'ERR_CORS') {
+      console.error('🚫 CORS Error:', {
+        message: error.message,
+        apiUrl: API_BASE_URL,
+        origin: window.location.origin,
+      })
+      error.message = `CORS Error: The backend at ${API_BASE_URL} is not allowing requests from ${window.location.origin}. Set ALLOWED_ORIGINS=* on the backend.`
+    } else if (error.response) {
+      // Server responded with error status
+      console.error('❌ API Error:', {
+        status: error.response.status,
+        statusText: error.response.statusText,
+        data: error.response.data,
+        url: error.config?.url,
       })
     }
     return Promise.reject(error)
