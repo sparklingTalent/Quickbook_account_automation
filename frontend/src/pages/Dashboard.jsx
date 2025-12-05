@@ -38,12 +38,12 @@ function Dashboard() {
       setDepartmentData(batchData.department || [])
       setEmployeeData(batchData.report || [])
       setEmployees(batchData.employees || [])
-    } catch (err) {
+      } catch (err) {
       console.error('Error loading data:', err)
       // Fallback to individual requests if batch fails
       try {
         const [trendsData, deptData, reportData, employeesData] = await Promise.all([
-          apiService.getVarianceTrends(effectiveMonths, selectedYear, selectedMonth),
+          apiService.getVarianceTrends(months, selectedYear, selectedMonth),
           apiService.getVarianceByDepartment(selectedYear, selectedMonth),
           apiService.generateVarianceReport(selectedYear, selectedMonth, 'json'),
           apiService.getEmployees(),
